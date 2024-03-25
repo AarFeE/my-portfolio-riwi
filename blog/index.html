@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/892aefaa85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="src/icon.png" />
+    <title>TechnoBlog</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navigation">
+            <ul class="sidebar">
+                <li class="close-btn" onclick="hideSidebar()">
+                    <figure>
+                        <img src="../styles/src/close.svg" alt="Menu">
+                    </figure>
+                </li>
+                <a href="../portfolio/index.html" class="sidebar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="sidebar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="sidebar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="sidebar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="sidebar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+            </ul>
+            <ul class="navbar">
+                <a href="../portfolio/index.html" class="navbar-logo">
+                    <li>
+                        <figure>
+                            <img src="../styles/src/logo.svg" alt="Logo">
+                        </figure>
+                    </li>
+                </a>
+                <a href="../portfolio/index.html" class="navbar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="navbar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="navbar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="navbar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="navbar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+                <li class="menu-btn" onclick="showSidebar()">
+                    <figure>
+                        <img src="../styles/src/menu.svg" alt="Menu">
+                    </figure>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <h1 class="title h1 gradient-bg-always">TechnoBlog</h1>
+        <h2 class="title h2">
+            Bienvenido al blog más geek de la web <i class="fa-solid fa-face-smile-wink"></i>
+        </h2>
+        <h3 class="title h3">
+            En este blog podrás encontrar información sobre el mundo de la tecnología y la informática, con
+            entradas sobre historia y datos interesantes para los más curiosos, como noticias de los últimos
+            avances del campo; bienvenido a nuestro portal.
+        </h3>
+
+
+        <hr />
+
+        <section>
+            <ul>
+                <li>
+                    <article class="news-project">
+                        <a href="def-first-article.html">
+                            <h2 class="title h2">
+                                Quién fue Dennis Ritchie? <sup>12/02/24</sup>
+                            </h2>
+                            <img class="responsive" src="src/DennisRitchie-1.jpg" alt="Dennis Ritchie" />
+                        </a>
+                        <p>Ritchie es conocido sobre todo por ser el creador del lenguaje de programación C y
+                            cocreador,
+                            junto con Ken Thompson, del sistema operativo Unix.</p>
+                    </article>
+                </li>
+
+                <hr />
+
+                <li>
+                    <article class="news-project">
+                        <a href="def-second-article.html">
+                            <h2 class="title h2">
+                                >La importancia de la programación web <sup>05/11/23</sup>
+                            </h2>
+                            <img class="responsive" src="src/code.jpg" alt="Code" />
+                        </a>
+                        <p>En los últimos años, la industria tecnológica ha presenciado un cambio significativo
+                            hacia
+                            las
+                            plataformas de desarrollo de bajo código, revolucionando la forma en que se
+                            construye y
+                            despliega el
+                            software.</p>
+                    </article>
+                </li>
+
+                <hr />
+
+                <li>
+                    <article class="news-project">
+                        <a href="def-third-article.html">
+                            <h2 class="title h2">
+                                El Surgimiento de Plataformas de Desarrollo de Bajo
+                                Código <sup>02/06/23</sup>
+                            </h2>
+                            <img class="responsive" src="src/lowcode.webp" alt="Low Code" />
+                        </a>
+                        <p>La programación web sirve para crear páginas y sitios en Internet. Para poder
+                            hacerlo, se
+                            utilizan distintos lenguajes específicos que permiten desarrollar la creatividad
+                            humana.</p>
+                    </article>
+                </li>
+
+                <hr />
+
+                <li>
+                    <article class="news-project">
+                        <a href="def-fourth-article.html">
+                            <h2 class="title h2">
+                                El Papel de la Inteligencia Artificial en la
+                                Ciberseguridad <sup>11/09/23</sup>
+                            </h2>
+                            <img class="responsive" src="src/IBM_lock_1200.webp" alt="AI Lock" />
+                        </a>
+                        <p>Con la proliferación de amenazas cibernéticas en la era digital, la ciberseguridad se
+                            ha
+                            convertido
+                            en una prioridad principal para empresas y particulares por igual. En este panorama,
+                            la
+                            inteligencia
+                            artificial (IA) surge como una herramienta poderosa para mejorar las medidas de
+                            ciberseguridad y
+                            mitigar las amenazas en evolución.</p>
+                    </article>
+                </li>
+
+                <hr />
+
+                <li>
+                    <article class="news-project">
+                        <a href="def-fifth-article.html">
+                            <h2 class="title h2">
+                                Explorando las Aplicaciones Web Progresivas (PWAs)
+                                y su
+                                Impacto
+                                en
+                                el Desarrollo Móvil <sup>07/29/23</sup>
+                            </h2>
+                            <img class="responsive" src="src/pwa.webp" alt="PWA" />
+                        </a>
+                        <p>En el cambiante panorama del desarrollo móvil, las aplicaciones web progresivas
+                            (PWAs)
+                            han
+                            surgido
+                            como una alternativa convincente a las aplicaciones móviles nativas tradicionales.
+                            Las
+                            PWAs
+                            combinan
+                            las mejores características de las experiencias web y móviles, ofreciendo a los
+                            usuarios
+                            una
+                            experiencia de navegación fluida y receptiva en todos los dispositivos.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="blog-form">
+            <h2 class="title h2">Suscribirse </h2>
+            <form method="get">
+                <div>
+                    <label for="the_name">Name: </label>
+                    <input type="text" name="the_name" id="the_name" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="the_email">Email Address: </label>
+                    <input type="email" name="the_email" id="the_email" required>
+                </div>
+                <div>
+                    <label for="subscribe_notifs">Do you wanna recieve notifications?: </label>
+                    <input type="checkbox" name="subscribe_notifs" id="subscribe_notifs">
+                </div>
+                <div>
+                    <label for="subscribe_promos">Do you wanna recieve promotionary emails?: </label>
+                    <input type="checkbox" name="subscribe_promos" id="subscribe_promos">
+                </div>
+                <button class="reg-btn gradient-bg" type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+
+
+    <hr />
+
+    <footer class="footer">
+        <ul>
+            <div class="footer-elements footer-icons">
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+            </div>
+            <li class="footer-elements footer-email">
+                <p><span>
+                        <h2 class="title h3">Contact Email:</h2>
+                    </span> andres.jimenezv@hotmail.com</p>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/892aefaa85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="../styles/src/logo.svg">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="sidebar">
+                <li class="close-btn" onclick="hideSidebar()">
+                    <figure>
+                        <img src="../styles/src/close.svg" alt="Menu">
+                    </figure>
+                </li>
+                <a href="../portfolio/index.html" class="sidebar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="sidebar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="sidebar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="sidebar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="sidebar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+            </ul>
+            <ul class="navbar">
+                <a href="../portfolio/index.html" class="navbar-logo">
+                    <li>
+                        <figure>
+                            <img src="../styles/src/logo.svg" alt="Logo">
+                        </figure>
+                    </li>
+                </a>
+                <a href="../portfolio/index.html" class="navbar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="navbar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="navbar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="navbar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="navbar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+                <li class="menu-btn" onclick="showSidebar()">
+                    <figure>
+                        <img src="../styles/src/menu.svg" alt="Menu">
+                    </figure>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <h1 class="title h1 gradient-bg-always">My Portfolio</h1>
+        <div class="table-overflow">
+            <table class="the-table">
+                <tr>
+                    <th class="top-left title h3">Name</th>
+                    <th class="title h3">Description</th>
+                    <th class="top-right title h3">Date</th>
+                </tr>
+                <tr>
+                    <td class="table-blog reg-btn gradient-bg"><a href="#technoblog">TechnoBlog</a></td>
+                    <td>Small blog only made with html that contains articles related to technology</td>
+                    <td>mar/2024</td>
+                </tr>
+                <tr>
+                    <td class="table-news reg-btn gradient-bg"><a href="#html-news">HTML News</a></td>
+                    <td>html file filled with a few news</td>
+                    <td class="bottom-right">mar/2024</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr id="technoblog" class="regular-hr" />
+
+        <section class="the-projects">
+            <article class="project">
+                <h2 class="title h2">TechnoBlog</h2>
+                <section class="carousel">
+                    <figure class="carousel-item first-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item last-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                </section>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia quo pariatur velit
+                    voluptates perspiciatis dolores iure aliquid! Quo autem, eum ut commodi reprehenderit animi aperiam
+                    inventore dolorem placeat expedita!
+                    Sint, quod. Temporibus dolore tempore dignissimos doloremque soluta beatae quibusdam voluptas illum
+                    error nam tenetur obcaecati iusto porro suscipit, incidunt sunt. Illum quis ut est officiis,
+                    voluptate totam quod sequi.
+                    Ab laborum, facilis autem aliquid ratione fuga. Minima maiores qui quod cupiditate harum est nulla
+                    nostrum aperiam recusandae iste provident commodi veniam, nam quis alias. Repudiandae deleniti
+                    deserunt iusto porro.
+                    Quam quis nobis autem odit consequatur, impedit nisi libero nam vitae molestiae, saepe cumque, atque
+                    provident eos ipsa corrupti odio dolorem quos itaque possimus laborum excepturi? Doloribus sit nobis
+                    aspernatur.
+                    Nihil explicabo dicta quo magni? Cumque, ad hic! Quia, ad molestias porro voluptates dolores sunt
+                    eligendi non. Perspiciatis, voluptatem eveniet praesentium dicta vel asperiores dolorum inventore
+                    nesciunt aliquid quisquam vitae?
+                </p>
+                <a href="../blog/index.html" class="gradient-bg"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </article>
+            <hr class="projects-hr" />
+            <article class="project">
+                <h2 class="title h2">HTML News</h2>
+                <section class="carousel">
+                    <figure class="carousel-item first-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item last-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                </section>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia quo pariatur velit
+                    voluptates perspiciatis dolores iure aliquid! Quo autem, eum ut commodi reprehenderit animi aperiam
+                    inventore dolorem placeat expedita!
+                    Sint, quod. Temporibus dolore tempore dignissimos doloremque soluta beatae quibusdam voluptas illum
+                    error nam tenetur obcaecati iusto porro suscipit, incidunt sunt. Illum quis ut est officiis,
+                    voluptate totam quod sequi.
+                    Ab laborum, facilis autem aliquid ratione fuga. Minima maiores qui quod cupiditate harum est nulla
+                    nostrum aperiam recusandae iste provident commodi veniam, nam quis alias. Repudiandae deleniti
+                    deserunt iusto porro.
+                    Quam quis nobis autem odit consequatur, impedit nisi libero nam vitae molestiae, saepe cumque, atque
+                    provident eos ipsa corrupti odio dolorem quos itaque possimus laborum excepturi? Doloribus sit nobis
+                    aspernatur.
+                    Nihil explicabo dicta quo magni? Cumque, ad hic! Quia, ad molestias porro voluptates dolores sunt
+                    eligendi non. Perspiciatis, voluptatem eveniet praesentium dicta vel asperiores dolorum inventore
+                    nesciunt aliquid quisquam vitae?
+                </p>
+                <a href="../news/index.html" class="gradient-bg"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </article>
+            <hr class="projects-hr" />
+            <article class="project">
+                <h2 class="title h2">TechnoBlog</h2>
+                <section class="carousel">
+                    <figure class="carousel-item first-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item last-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                </section>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia quo pariatur velit
+                    voluptates perspiciatis dolores iure aliquid! Quo autem, eum ut commodi reprehenderit animi aperiam
+                    inventore dolorem placeat expedita!
+                    Sint, quod. Temporibus dolore tempore dignissimos doloremque soluta beatae quibusdam voluptas illum
+                    error nam tenetur obcaecati iusto porro suscipit, incidunt sunt. Illum quis ut est officiis,
+                    voluptate totam quod sequi.
+                    Ab laborum, facilis autem aliquid ratione fuga. Minima maiores qui quod cupiditate harum est nulla
+                    nostrum aperiam recusandae iste provident commodi veniam, nam quis alias. Repudiandae deleniti
+                    deserunt iusto porro.
+                    Quam quis nobis autem odit consequatur, impedit nisi libero nam vitae molestiae, saepe cumque, atque
+                    provident eos ipsa corrupti odio dolorem quos itaque possimus laborum excepturi? Doloribus sit nobis
+                    aspernatur.
+                    Nihil explicabo dicta quo magni? Cumque, ad hic! Quia, ad molestias porro voluptates dolores sunt
+                    eligendi non. Perspiciatis, voluptatem eveniet praesentium dicta vel asperiores dolorum inventore
+                    nesciunt aliquid quisquam vitae?
+                </p>
+                <a href="../blog/index.html" class="gradient-bg"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </article>
+            <hr id="html-news" class="projects-hr" />
+            <article class="project">
+                <h2 class="title h2">HTML News</h2>
+                <section class="carousel">
+                    <figure class="carousel-item first-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                    <figure class="carousel-item"><img  src="src/html-news.png" alt=""></figure>
+                    <figure class="carousel-item last-item"><img  src="src/TechnoBlog.png" alt=""></figure>
+                </section>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia quo pariatur velit
+                    voluptates perspiciatis dolores iure aliquid! Quo autem, eum ut commodi reprehenderit animi aperiam
+                    inventore dolorem placeat expedita!
+                    Sint, quod. Temporibus dolore tempore dignissimos doloremque soluta beatae quibusdam voluptas illum
+                    error nam tenetur obcaecati iusto porro suscipit, incidunt sunt. Illum quis ut est officiis,
+                    voluptate totam quod sequi.
+                    Ab laborum, facilis autem aliquid ratione fuga. Minima maiores qui quod cupiditate harum est nulla
+                    nostrum aperiam recusandae iste provident commodi veniam, nam quis alias. Repudiandae deleniti
+                    deserunt iusto porro.
+                    Quam quis nobis autem odit consequatur, impedit nisi libero nam vitae molestiae, saepe cumque, atque
+                    provident eos ipsa corrupti odio dolorem quos itaque possimus laborum excepturi? Doloribus sit nobis
+                    aspernatur.
+                    Nihil explicabo dicta quo magni? Cumque, ad hic! Quia, ad molestias porro voluptates dolores sunt
+                    eligendi non. Perspiciatis, voluptatem eveniet praesentium dicta vel asperiores dolorum inventore
+                    nesciunt aliquid quisquam vitae?
+                </p>
+                <a href="../news/index.html" class="gradient-bg"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </article>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <ul>
+            <div class="footer-elements footer-icons">
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+            </div>
+            <li class="footer-elements footer-email">
+                <p><span>
+                        <h4 class="title h3">Contact Email:</h4>
+                    </span> andres.jimenezv@hotmail.com</p>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>

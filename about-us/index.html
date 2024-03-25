@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/892aefaa85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="../styles/src/logo.svg">
+    <title>Andres Jimenez</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="sidebar">
+                <li class="close-btn" onclick="hideSidebar()">
+                    <figure>
+                        <img src="../styles/src/close.svg" alt="Menu">
+                    </figure>
+                </li>
+                <a href="../portfolio/index.html" class="sidebar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="sidebar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="sidebar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="sidebar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="sidebar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+            </ul>
+            <ul class="navbar">
+                <a href="../portfolio/index.html" class="navbar-logo">
+                    <li>
+                        <figure>
+                            <img src="../styles/src/logo.svg" alt="Logo">
+                        </figure>
+                    </li>
+                </a>
+                <a href="../portfolio/index.html" class="navbar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="navbar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="navbar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="navbar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="navbar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+                <li class="menu-btn" onclick="showSidebar()">
+                    <figure>
+                        <img src="../styles/src/menu.svg" alt="Menu">
+                    </figure>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main about-us-main">
+        <h1 class="title h1 gradient-bg-always">About Us</h1>
+        <section class="about-us-info">
+            <ul>
+                <article>
+                    <li>
+                        <h2>Who am I?</h2>
+                        <p>
+                            My name is Andres Felipe Jimenez Villegas, I'm a very curious person that's always trying to
+                            learn
+                            new concepts in different fields of my interest.
+                            I live in Sabaneta, but I come from a small town called Riosucio Caldas; I have many
+                            hobbies,
+                            and
+                            the ones I enjoy doing the most is listening to
+                            music, learning new stuff and playing videogames.
+                        </p>
+                    </li>
+                </article>
+
+                <article>
+                    <li>
+                        <h2>What am I striving for?</h2>
+                        <p>
+                            I've set a good amount of goals in my head, and the ones I'm focused the most on achieving
+                            are
+                            those
+                            related to accomplishing my full independence and self sustain.
+                            I also have a ton of dreams were I do all I've always wanted to experience but couldn't
+                            because
+                            of financial
+                            limitations, so I also need to learn and become proficient at making money.
+                            I also want to become a better person and find fulfilment within myself, because real
+                            happiness
+                            and joy come
+                            from the peacefulness of the soul, and if I can't achieve a good mindset and connection with
+                            my
+                            inner self my
+                            other projects will probably feel empty and unfulfilling.
+
+                        </p>
+                    </li>
+                </article>
+
+                <article>
+                    <li>
+                        <h2>My routine</h2>
+                        <p>
+                            I start my day being awaken by the alarm clock, I tend to set a few of those because
+                            sometimes I
+                            turn them off while
+                            I'm still asleep. Then I go to the br to get ready for the day; after leaving the br I get
+                            myself dressed and head to
+                            the kitchen to make some breakfast and prepare my lunch. When I'm ready for the day, I go to
+                            my
+                            pc and start checking
+                            the stuff I'm doing and advance a bit more on it. When it's around 12:40 on the clock I put
+                            everything in my backpack
+                            and leave the house to come to Riwi, here I learn how to program, but they also teach me
+                            other
+                            useful
+                            abilities for my life and english.
+                            At 10pm I leave Riwi and head to my home, it takes me around an hour to get there and when I
+                            finally arrive I search for
+                            something to eat, rest a little bit and then I begin checking the stuff I learned during the
+                            day, and I try to advance
+                            as much as I can before sleepiness gets the best of me and makes me fall asleep.
+                        </p>
+                    </li>
+                </article>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <div class="footer-elements footer-icons">
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+            </div>
+            <li class="footer-elements footer-email">
+                <p><span>
+                        <h4 class="title h3">Contact Email:</h4>
+                    </span> andres.jimenezv@hotmail.com</p>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>

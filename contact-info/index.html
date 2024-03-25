@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/892aefaa85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="../styles/src/logo.svg" />
+    <title>Contact Info</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="sidebar">
+                <li class="close-btn" onclick="hideSidebar()">
+                    <figure>
+                        <img src="../styles/src/close.svg" alt="Menu">
+                    </figure>
+                </li>
+                <a href="../portfolio/index.html" class="sidebar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="sidebar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="sidebar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="sidebar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="sidebar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+            </ul>
+            <ul class="navbar">
+                <a href="../portfolio/index.html" class="navbar-logo">
+                    <li>
+                        <figure>
+                            <img src="../styles/src/logo.svg" alt="Logo">
+                        </figure>
+                    </li>
+                </a>
+                <a href="../portfolio/index.html" class="navbar-btn gradient-bg">
+                    <li>My Portfolio</li>
+                </a>
+                <a href="../blog/index.html" class="navbar-btn gradient-bg">
+                    <li>TechnoBlog</li>
+                </a>
+                <a href="../news/index.html" class="navbar-btn gradient-bg">
+                    <li>HTML News</li>
+                </a>
+                <a href="../about-us/index.html" class="navbar-btn gradient-bg">
+                    <li>About Us</li>
+                </a>
+                <a href="../contact-info/index.html" class="navbar-btn gradient-bg">
+                    <li>Contact Info</li>
+                </a>
+                <li class="menu-btn" onclick="showSidebar()">
+                    <figure>
+                        <img src="../styles/src/menu.svg" alt="Menu">
+                    </figure>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <section class="blog-form">
+            <h2 class="title h2">Contact Us</h2>
+            <form method="get">
+                <label for="the_name">Name: </label>
+                <input type="text" name="the_name" id="the_name" maxlength="50" required>
+                <label for="the_phone">Phone Number: </label>
+                <input type="tel" name="the_phone" id="the_phone" pattern="[0-9]{10}" placeholder="3123451234" required>
+                <label for="the_email">Email Address: </label>
+                <input type="email" name="the_email" id="the_email" required>
+                <label for="topic">Topic: </label>
+                <select name="topic" id="topic" required>
+                    <option value="0" selected="selected" disabled>Pick One Option</option>
+                    <option value="1">Work</option>
+                    <option value="2">Studies</option>
+                    <option value="3">Compromises</option>
+                </select>
+                <label for="message"> Message: </label>
+                <textarea name="message" id="message" maxlength="500" required></textarea>
+                <label for="accept_terms">Accept Terms of Use: </label>
+                <input type="checkbox" name="accept_terms" id="accept_terms" required>
+                <label for="cv">Add CV: </label>
+                <input type="file" name="cv" id="cv">
+                <label for="availability">Available Date: </label>
+                <input type="date" name="availability" id="availability" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <ul>
+            <div class="footer-elements footer-icons">
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="gradient-bg"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+            </div>
+            <li class="footer-elements footer-email">
+                <p><span>
+                        <h2 class="title h3">Contact Email:</h2>
+                    </span> andres.jimenezv@hotmail.com</p>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
